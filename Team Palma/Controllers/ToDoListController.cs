@@ -11,7 +11,7 @@ namespace Team_Palma
     
 	public class ToDoListController : Controller
 	{
-		IToDoListRepository _blogRepository;
+		IToDoListRepository _ToDoListRepository;
         private IToDoListRepository _ToDoListRepository;
 
         public ToDoListController(IToDoListRepository ToDoListRepository)
